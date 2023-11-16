@@ -14,17 +14,20 @@ function App() {
   return (
     <>
       <div>
-        <Router>
-          <Navbar />
+      
+      
+    <Router>
+        <Navbar />
+          
            <Routes>
               <Route exact path='/' element={<Home />}/>
               <Route exact path='/Contact' element={<Contact />}/>
               <Route exact path='/Portfolio' element={<Portfolio />}/>
               <Route exact path='/Services' element={<Services />}/>
            </Routes>
+        <Footer/>
           
-          <Footer/>
-        </Router>
+    </Router>
       </div>
         
         
