@@ -2,8 +2,9 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div><h1>Services Pages</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+      <h1 className='text-center p-4 text font-bold'>Services Pages</h1>
+    <p className='mx-5 '>Lorem ipsum dolor sit amet consectetur adipisicing elit.
        Explicabo, consequuntur doloremque rem dolorum suscipit nihil adipisci
        libero velit vel. Blanditiis maiores reiciendis, commodi repudiandae fuga 
        facilis consectetur culpa ullam vero laudantium dolor ad sit iure molestiae nulla

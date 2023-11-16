@@ -3,6 +3,7 @@ import react from 'react'
 import './App.css'
 
 import Navbar from './Components/Header/Navbar.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 import Home from './Pages/Home/Home.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import Portfolio from './Pages/Portfolio/Portfolio.jsx';
@@ -22,6 +23,7 @@ function App() {
               <Route exact path='/Services' element={<Services />}/>
            </Routes>
           
+          <Footer/>
         </Router>
       </div>
         
